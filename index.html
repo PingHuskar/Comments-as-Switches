@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Comments as Switches</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="sandbox">
+    <div class="box1">
+      <div class="box2">
+        <h1>Simple Comments as Switches</h1>
+      </div>
+      <div class="box2">
+        <section class="switches" data-theme="green">
+          <textarea name="" id="textarea1" cols="40" rows="10" maxlength="40" onblur="MAIN();">Lorem ipsum dolor sit amet.</textarea>
+          
+          <div class="switch switch--4">
+            <label class="switch__label">
+              <input type="checkbox" id="switch" class="switch__input" onchange="MAIN();">
+              <span class="switch__design"></span>
+            </label>
+          </div>
+          <textarea name="" id="textarea2" cols="40" rows="10" maxlength="40" onblur="MAIN();">Prayut Hua Kuyyyyy</textarea>
+          
+        </section>
+      </div>
+    </div>
+    <div class="box1">
+      <h2>Output</h2>
+      <section id="output">
+      </section>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
